@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.ALEXANDRITE.get());
                 output.accept(ModItems.RAW_ALEXANDRITE.get());
 
+                output.accept(ModItems.CHISEL.get());
+
             }).build());
 
     public static final RegistryObject<CreativeModeTab>ALEXANDRITE_BLOCK_TAB = CREATIVE_MOD_TABS.register("alexandrite_block_tab",
